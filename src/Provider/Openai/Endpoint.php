@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\Provider\Openai;
+namespace AntsAi\Provider\Openai;
 
-use PHPCrewsAi\Enum\Llm\RequestType;
+use AntsAi\Enum\Llm\RequestType;
 
 /**
  * @internal

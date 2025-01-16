@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Tests\Unit\ValueObject;
 
-use PHPCrewsAi\ValueObject\ApiKey;
+use AntsAi\ValueObject\ApiKey;
 
 it("creates a new apiKey from constuctor parameter", function (): void {
   $apiKey = new ApiKey(apiKey: "foo");

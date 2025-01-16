@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\ValueObject;
+namespace AntsAi\ValueObject;
 
-use PHPCrewsAi\Enum\Llm\RequestType;
-use PHPCrewsAi\Contract\Llm\LlmInterface;
+use AntsAi\Enum\Llm\RequestType;
+use AntsAi\Contract\Llm\LlmInterface;
 
 /**
  * @internal

@@ -1,7 +1,7 @@
 {
-    "name": "mr-ragman/phpcrews-ai",
-    "description": "An elegant PHP package for building multi-modal Agentic RAG and CAG applications with memory, tools, knowledge and reasoning.",
-    "keywords": ["php", "ai", "ml", "llm", "agents"],
+    "name": "mr-ragman/ants-ai",
+    "description": "Ants-Ai is an elegant PHP package for building multi-modal, mult-Agents, Autonomous Teams with memory, tools, knowledge and reasoning ability.",
+    "keywords": ["php", "ai", "ml", "llm", "agents", "aiteams"],
     "license": "MIT",
     "authors": [
         {
@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PHPCrewsAi\\": "src/"
+            "AntsAi\\": "src/"
         }
     },
     "autoload-dev": {

@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Tests\Unit\ValueObject;
 
-use PHPCrewsAi\ValueObject\Llm;
-use PHPCrewsAi\ValueObject\ApiKey;
-use PHPCrewsAi\ValueObject\LlmUrl;
-use PHPCrewsAi\Enum\Llm\SupportedLlms;
-use PHPCrewsAi\ValueObject\AgentConfig;
+use AntsAi\ValueObject\Llm;
+use AntsAi\ValueObject\ApiKey;
+use AntsAi\ValueObject\LlmUrl;
+use AntsAi\Enum\Llm\SupportedLlms;
+use AntsAi\ValueObject\AgentConfig;
 
 it("can create agent config with model name", function (): void {
   $llm = new Llm(

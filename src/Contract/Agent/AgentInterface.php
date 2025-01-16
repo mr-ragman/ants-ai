@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\Contract\Agent;
+namespace AntsAi\Contract\Agent;
 
-use PHPCrewsAi\Contract\Llm\LlmResponseInterface;
+use AntsAi\Contract\Llm\LlmResponseInterface;
 
 interface AgentInterface
 {

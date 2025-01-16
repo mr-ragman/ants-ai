@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\Contract\Llm;
+namespace AntsAi\Contract\Llm;
 
 interface ProviderInterface
 {

@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Tests\Unit\Helper;
 
 use Exception;
-use PHPCrewsAi\Helper\Apikey;
+use AntsAi\Helper\Apikey;
 
 test("invalid or missing env variable: throws Exception", function (): void {
   $envVariable = "OPENIA_FAKE_API_KEY";

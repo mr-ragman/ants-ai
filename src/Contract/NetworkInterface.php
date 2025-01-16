@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\Contract;
+namespace AntsAi\Contract;
 
 use OpenAI\Exceptions\ErrorException;
 use OpenAI\Exceptions\TransporterException;

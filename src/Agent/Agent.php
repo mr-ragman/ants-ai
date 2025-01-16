@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\Agent;
+namespace AntsAi\Agent;
 
-use PHPCrewsAi\Enum\Llm\SupportedLlms;
-use PHPCrewsAi\ValueObject\AgentConfig;
-use PHPCrewsAi\Provider\LlmProviderFactory;
-use PHPCrewsAi\Contract\Agent\AgentInterface;
-use PHPCrewsAi\Contract\Llm\LlmResponseInterface;
+use AntsAi\Enum\Llm\SupportedLlms;
+use AntsAi\ValueObject\AgentConfig;
+use AntsAi\Provider\LlmProviderFactory;
+use AntsAi\Contract\Agent\AgentInterface;
+use AntsAi\Contract\Llm\LlmResponseInterface;
 
 /**
  * @internal

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\Helper;
+namespace AntsAi\Helper;
 
 use UnhandledMatchError;
-use PHPCrewsAi\Enum\Llm\RequestType;
-use PHPCrewsAi\Enum\Llm\SupportedLlms;
-use PHPCrewsAi\Exception\LlmException;
+use AntsAi\Enum\Llm\RequestType;
+use AntsAi\Enum\Llm\SupportedLlms;
+use AntsAi\Exception\LlmException;
 
 /**
  * @internal
@@ -25,7 +25,7 @@ final class Endpoint
 
     try {
       return match (strtolower($providerName[0])) {
-        "openai" => \PHPCrewsAi\Provider\Openai\Endpoint::for($requestType),
+        "openai" => \AntsAi\Provider\Openai\Endpoint::for($requestType),
       };
     } catch (UnhandledMatchError $unhandledMatchError) {
       // this will catch both invalid requests or models

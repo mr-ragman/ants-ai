@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\ValueObject;
+namespace AntsAi\ValueObject;
 
 use SensitiveParameter;
-use PHPCrewsAi\Contract\StringableInterface;
+use AntsAi\Contract\StringableInterface;
 
 /**
  * @internal

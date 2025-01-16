@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\Provider;
+namespace AntsAi\Provider;
 
-use PHPCrewsAi\ValueObject\AgentConfig;
-use PHPCrewsAi\ValueObject\ResponseState;
-use PHPCrewsAi\Contract\Llm\ProviderInterface;
-use PHPCrewsAi\Contract\Llm\LlmResponseInterface;
+use AntsAi\ValueObject\AgentConfig;
+use AntsAi\ValueObject\ResponseState;
+use AntsAi\Contract\Llm\ProviderInterface;
+use AntsAi\Contract\Llm\LlmResponseInterface;
 
 class LlmProvider implements ProviderInterface
 {

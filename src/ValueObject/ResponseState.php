@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\ValueObject;
+namespace AntsAi\ValueObject;
 
-use PHPCrewsAi\Contract\Llm\LlmResponseInterface;
+use AntsAi\Contract\Llm\LlmResponseInterface;
 
 /**
  * @internal

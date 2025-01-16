@@ -2,9 +2,11 @@
 
 declare(strict_types=1);
 
-use PHPCrewsAi\Agent\Agent;
-use PHPCrewsAi\Enum\Llm\SupportedLlms;
-use PHPCrewsAi\ValueObject\ResponseState;
+namespace Tests\Unit\Agent;
+
+use AntsAi\Agent\Agent;
+use AntsAi\Enum\Llm\SupportedLlms;
+use AntsAi\ValueObject\ResponseState;
 
 beforeEach(function (): void {
     // $this->agentConfig = new AgentConfig(

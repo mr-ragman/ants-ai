@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Helper;
 
-use PHPCrewsAi\Helper\Endpoint;
-use PHPCrewsAi\Enum\Llm\RequestType;
-use PHPCrewsAi\Enum\Llm\SupportedLlms;
-use PHPCrewsAi\Exception\LlmException;
+use AntsAi\Helper\Endpoint;
+use AntsAi\Enum\Llm\RequestType;
+use AntsAi\Enum\Llm\SupportedLlms;
+use AntsAi\Exception\LlmException;
 
 test("invalid model: throws LlmException", function (): void {
   $model = "OPENIA_FAKE_MODEL";

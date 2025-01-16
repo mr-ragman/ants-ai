@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\Enum\Llm;
+namespace AntsAi\Enum\Llm;
 
 /**
  * @internal

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\ValueObject;
+namespace AntsAi\ValueObject;
 
-use PHPCrewsAi\Contract\StringableInterface;
-use PHPCrewsAi\Exception\InvalidUrlException;
+use AntsAi\Contract\StringableInterface;
+use AntsAi\Exception\InvalidUrlException;
 
 /**
  * @internal

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\ValueObject;
+namespace AntsAi\ValueObject;
 
-use PHPCrewsAi\ValueObject\ApiKey;
-use PHPCrewsAi\Enum\Llm\SupportedLlms;
-use PHPCrewsAi\Contract\Llm\LlmInterface;
+use AntsAi\ValueObject\ApiKey;
+use AntsAi\Enum\Llm\SupportedLlms;
+use AntsAi\Contract\Llm\LlmInterface;
 
 class Llm implements LlmInterface
 {

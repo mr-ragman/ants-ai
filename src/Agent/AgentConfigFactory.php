@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\Agent;
+namespace AntsAi\Agent;
 
-use PHPCrewsAi\ValueObject\Llm;
-use PHPCrewsAi\ValueObject\ApiKey;
-use PHPCrewsAi\ValueObject\LlmUrl;
-use PHPCrewsAi\Enum\Llm\RequestType;
-use PHPCrewsAi\Enum\Llm\SupportedLlms;
-use PHPCrewsAi\ValueObject\AgentConfig;
-use PHPCrewsAi\Provider\Openai\Endpoint;
-use PHPCrewsAi\Helper\Apikey as ApiKeyHelper;
-use PHPCrewsAi\Exception\AgentConfigException;
+use AntsAi\ValueObject\Llm;
+use AntsAi\ValueObject\ApiKey;
+use AntsAi\ValueObject\LlmUrl;
+use AntsAi\Enum\Llm\RequestType;
+use AntsAi\Enum\Llm\SupportedLlms;
+use AntsAi\ValueObject\AgentConfig;
+use AntsAi\Provider\Openai\Endpoint;
+use AntsAi\Helper\Apikey as ApiKeyHelper;
+use AntsAi\Exception\AgentConfigException;
 
 /**
  * @internal

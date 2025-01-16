@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Tests\Unit\ValueObject;
 
-use PHPCrewsAi\ValueObject\LlmUrl;
+use AntsAi\ValueObject\LlmUrl;
 
 it("creates a valide secure url", function(): void{
   $llmUrl = new LlmUrl(url: "domain.com");

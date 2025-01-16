@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-use PHPCrewsAi\Provider\LlmProvider;
+use AntsAi\Provider\LlmProvider;
 use Psr\Http\Message\ResponseInterface;
-use PHPCrewsAi\ValueObject\ResponseState;
-use PHPCrewsAi\Contract\Llm\ProviderInterface;
-use PHPCrewsAi\Contract\Llm\LlmResponseInterface;
+use AntsAi\ValueObject\ResponseState;
+use AntsAi\Contract\Llm\ProviderInterface;
+use AntsAi\Contract\Llm\LlmResponseInterface;
 
 test('strict types')
-    ->expect('PHPCrewsAi')
+    ->expect('AntsAi')
     ->toUseStrictTypes()
     ->not->toUse(['die', 'dd', 'dump']);
 
 test('contracts')
-    ->expect('PHPCrewsAi\Contract')
+    ->expect('AntsAi\Contract')
     ->toOnlyUse([
-        'PHPCrewsAi\ValueObject',
+        'AntsAi\ValueObject',
         ResponseInterface::class
     ])
     ->toBeInterfaces();

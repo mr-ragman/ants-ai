@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PHPCrewsAi\Provider;
+namespace AntsAi\Provider;
 
-use PHPCrewsAi\ValueObject\AgentConfig;
+use AntsAi\ValueObject\AgentConfig;
 
 class LlmProviderFactory
 {
