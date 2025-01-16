@@ -26,4 +26,5 @@ return RectorConfig::configure()
         earlyReturn: true,
         codingStyle: true,
     )
-    ->withTypeCoverageLevel(0); // typeDeclarations:true
+    ->withTypeCoverageLevel(0)
+    ->withImportNames(removeUnusedImports: true); // typeDeclarations:true
